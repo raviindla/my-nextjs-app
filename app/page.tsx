@@ -2,6 +2,8 @@
 import { client } from '@/utils/sanity';
 import { PortableText } from '@portabletext/react';
 
+export const dynamic = 'force-dynamic';
+
 // 1. Define a precise type for Sanity's block content to satisfy ESLint
 interface SanityBlock {
   _key: string;
